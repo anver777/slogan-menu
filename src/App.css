@@ -1,0 +1,124 @@
+/* --- ГЛОБАЛЬНЫЙ СБРОС И БАЗА --- */
+:root {
+  --p-green: #5fb9b0;
+  --p-dark: #0f172a;
+  --p-light: #f8f9fa;
+  --content-width: 650px; /* Ширина вашего меню */
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff; /* ВСЕГДА БЕЛЫЕ КРАЯ ПО БОКАМ */
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+}
+
+/* --- КОНТЕЙНЕР-ОБОЛОЧКА --- */
+.app-canvas {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+}
+
+.main-layout-container {
+  width: 100%;
+  max-width: var(--content-width);
+  min-height: 100vh;
+  position: relative;
+  transition: background-color 0.7s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 0 60px rgba(0,0,0,0.03); /* Тень для отделения от белых краев */
+}
+
+/* --- ПЕРЕКЛЮЧЕНИЕ ТЕМ (ЦЕНТР) --- */
+.theme-light {
+  background-color: #ffffff;
+}
+
+.theme-dark {
+  background-color: var(--p-dark); /* Темнеет только центр */
+}
+
+/* --- ЗАГОЛОВКИ СЕКЦИЙ --- */
+.section-title {
+  font-size: 2.4rem;
+  font-weight: 900;
+  text-align: center;
+  padding: 50px 20px 20px;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  transition: color 0.6s ease;
+}
+
+.theme-light .section-title { color: #1a1a1a; } /* ЧЕРНЫЙ НА БЕЛОМ */
+.theme-dark .section-title { color: #ffffff; } /* БЕЛЫЙ НА ТЕМНОМ */
+
+/* --- ИНТЕРФЕЙС УПРАВЛЕНИЯ (Кнопки) --- */
+.floating-interface-layer {
+  position: fixed;
+  bottom: 30px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  z-index: 9999;
+  pointer-events: none;
+}
+
+.interface-bounded-box {
+  width: 100%;
+  max-width: var(--content-width); /* Зажимаем кнопки в границы меню */
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 0 20px;
+}
+
+.left-side, .right-side {
+  pointer-events: auto; /* Возвращаем клики кнопкам */
+}
+
+/* Кнопка корзины (Справа) */
+.pro-cart-fab {
+  background: var(--p-green);
+  color: white;
+  width: 80px;
+  height: 80px;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 15px 35px rgba(95, 185, 176, 0.4);
+  border: 3px solid white;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.pro-cart-fab:active { transform: scale(0.92); }
+
+.fab-icon-badge {
+  background: white;
+  color: var(--p-green);
+  font-size: 13px;
+  font-weight: 900;
+  padding: 2px 8px;
+  border-radius: 10px;
+  margin-bottom: 4px;
+}
+
+.fab-text-price {
+  font-size: 16px;
+  font-weight: 800;
+}
+
+/* --- КОНТЕНТ --- */
+.content-scroller {
+  padding-bottom: 140px; /* Чтобы кнопки не закрывали еду */
+}
+
+.menu-section-block {
+  margin-bottom: 30px;
+}
