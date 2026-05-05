@@ -15,15 +15,21 @@ export const menuData = {
   ],
   items: [
     // --- САЛАТЫ ---
-    { id: 1, categoryId: 'salads', name: 'С КАЛЬМАРОМ', price: 590, weight: '200г', desc: 'кальмар, огурец, ореховый соус, кинза, кунжут, имбирь, чеснок' },
-    { id: 2, categoryId: 'salads', name: 'ЦЕЗАРЬ С КУРИЦЕЙ', price: 370, weight: '200г', desc: 'куриное филе, ромэн, черри, пармезан, соус цезарь, гренки' },
-    { id: 3, categoryId: 'salads', name: 'ЦЕЗАРЬ С КРЕВЕТКАМИ', price: 490, weight: '200г', desc: 'тигровые креветки, ромэн, черри, пармезан, соус цезарь' },
-    { id: 4, categoryId: 'salads', name: 'ПАНАЗИАТСКИЙ', price: 380, weight: '200г', desc: 'баклажан в кляре, помидор, кинза, соус сладкий чили' },
+    { id: 1, categoryId: 'salads', name: 'С КАЛЬМАРОМ', price: 590, weight: '200г', desc: 'кальмар, огурец, ореховый соус, кинза, кунжут, имбирь, чеснок, соевый соус, лимон' },
+    { id: 4, categoryId: 'salads', name: 'ПАНАЗИАТСКИЙ', price: 380, weight: '200г', desc: 'баклажан, кляре, зелень, помидор, кинза, соус сладкий чили' },
+    { id: 2, categoryId: 'salads', name: 'ЦЕЗАРЬ С КУРИЦЕЙ', price: 370, weight: '200г', desc: 'куриза, айсберг, соус церярь, пармезан, черри, гренки' },
+    { id: 3, categoryId: 'salads', name: 'ЦЕЗАРЬ С КРЕВЕТКАМИ', price: 490, weight: '200г', desc: 'айсберг, криветки, пармезан, соус церярь, черри, гренки' },
+    { id: 3, categoryId: 'salads', name: 'ЦЕЗАРЬ С СЕМГОЙ', price: 490, weight: '200г', desc: 'айсберг, семга, пармезан, соус церярь, черри, гренки' },
+    { id: 3, categoryId: 'salads', name: 'ОВОЩНОЙ', price: 350, weight: '200г', desc: 'огурец, помидор, масло оливковое, зелень' },
+    
 
     // --- СУПЫ ---
-    { id: 10, categoryId: 'soups', name: 'ТОМ ЯМ', price: 360, weight: '300г', desc: 'классический тайский суп с морепродуктами и рисом' },
-    { id: 11, categoryId: 'soups', name: 'СОЛЯНКА МЯСНАЯ', price: 350, weight: '300г', desc: 'традиционная мясная солянка со сметаной' },
-    { id: 12, categoryId: 'soups', name: 'КРЕМ-СУП ГРИБНОЙ', price: 300, weight: '300г', desc: 'шампиньоны, сливки, гренки' },
+    { id: 12, categoryId: 'soups', name: 'КРЕМ-СУП ГРИБНОЙ', price: 300, weight: '300г', desc: '  ' },
+    { id: 11, categoryId: 'soups', name: 'СОЛЯНКА МЯСНАЯ', price: 350, weight: '300г', desc: '  ' },
+    { id: 12, categoryId: 'soups', name: 'БУЛЬОН КУРИНЫЙ С ЛАПШОЙ И ЯЙЦОМ', price: 250, weight: '300г', desc: '  ' },
+    { id: 10, categoryId: 'soups', name: 'ТОМ ЯМ', price: 360, weight: '300г', desc: '  ' },
+    
+    
 
     // --- ПИЦЦА ---
     { id: 20, categoryId: 'pizza', name: 'МОРЕПРОДУКТЫ', price: 710, weight: '450г', desc: 'креветки, кальмары, мидии, моцарелла, соус' },
@@ -35,12 +41,12 @@ export const menuData = {
     { id: 26, categoryId: 'pizza', name: 'ДОРБЛЮ ГРУША', price: 690, weight: '400г', desc: 'сливочный соус, сыр дорблю, груша, моцарелла' },
 
     // --- ПАСТА ---
-    { id: 30, categoryId: 'pasta', name: 'КАРБОНАРА', price: 520, weight: '250г', desc: 'спагетти, бекон, желток, пармезан, сливки' },
-    { id: 31, categoryId: 'pasta', name: 'С ФОРЕЛЬЮ', price: 690, weight: '250г', desc: 'форель, сливочный соус, нежная паста' },
-    { id: 32, categoryId: 'pasta', name: 'С МОРЕПРОДУКТАМИ', price: 690, weight: '300г', desc: 'микс морепродуктов в сливочном или томатном соусе' },
-    { id: 33, categoryId: 'pasta', name: 'С ВЕТЧИННОЙ И ГРИБАМИ', price: 570, weight: '250г', desc: 'ветчина, грибы, сливки, сыр' },
-    { id: 34, categoryId: 'pasta', name: 'С ПЕСТО И КРЕВЕТКАМИ', price: 660, weight: '250г', desc: 'тигровые креветки и ароматный соус песто' },
-    { id: 35, categoryId: 'pasta', name: 'С ДОР БЛЮ И КУРИЦЕЙ', price: 660, weight: '250г', desc: 'куриное филе в пикантном соусе дор блю' },
+    { id: 30, categoryId: 'pasta', name: 'КАРБОНАРА', price: 520, weight: '250г', desc: '  ' },
+    { id: 31, categoryId: 'pasta', name: 'С ФОРЕЛЬЮ', price: 690, weight: '250г', desc: '  ' },
+    { id: 32, categoryId: 'pasta', name: 'С МОРЕПРОДУКТАМИ', price: 690, weight: '300г', desc: '  ' },
+    { id: 33, categoryId: 'pasta', name: 'С ВЕТЧИННОЙ И ГРИБАМИ', price: 570, weight: '250г', desc: '  ' },
+    { id: 34, categoryId: 'pasta', name: 'С ПЕСТО И КРЕВЕТКАМИ', price: 660, weight: '250г', desc: '  ' },
+    { id: 35, categoryId: 'pasta', name: 'С ДОР БЛЮ И КУРИЦЕЙ', price: 660, weight: '250г', desc: '  ' },
 
     // --- МАНГАЛ ---
     { id: 40, categoryId: 'grill', name: 'ШАШЛЫК СВИНОЙ', price: 560, weight: '200г', desc: 'шейка свиная, лук маринованный, соус' },
