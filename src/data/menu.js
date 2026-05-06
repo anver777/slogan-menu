@@ -9,7 +9,7 @@ export const menuData = {
     { id: 'sets', name: 'Сеты', icon: '🍱' },
     { id: 'croissants', name: 'Круассаны', icon: '🥐' },
     { id: 'desserts', name: 'Десерты', icon: '🍰' },
-    { id: 'cocktails', name: 'Коктейли', icon: '🍸' },
+  
     { id: 'bar', name: 'Бар', icon: '🍺' },
     { id: 'sauces', name: 'Соуса', icon: '🏺' }
   ],
@@ -81,13 +81,7 @@ export const menuData = {
     { id: 100, categoryId: 'desserts', name: 'ЧИЗКЕЙК', price: 230, weight: '150г', desc: 'классический сливочный десерт' },
     { id: 101, categoryId: 'desserts', name: 'МОРОЖЕНОЕ В АСС-ТЕ', price: 220, weight: '150г', desc: 'ванильное / шоколадное / клубничное' },
 
-    // --- КОКТЕЙЛИ ---
-    { id: 110, categoryId: 'cocktails', name: 'ПИНА КОЛАДА', price: 315, weight: '300мл', desc: 'сироп пина колада, сливки, водка, ананас' },
-    { id: 111, categoryId: 'cocktails', name: 'МОХИТО (КЛАССИК / КЛУБНИКА)', price: 260, weight: '350мл', desc: 'лайм, мята, сироп, ром/водка, содовая' },
-    { id: 112, categoryId: 'cocktails', name: 'ГОЛУБАЯ ЛАГУНА', price: 270, weight: '300мл', desc: 'блю кюрасао, лимонный сок, ананас, водка' },
-    { id: 113, categoryId: 'cocktails', name: 'САНРАЙЗ (МАЛИНА / ГРАНАТ)', price: 250, weight: '300мл', desc: 'сироп, лимонный и апельсиновый сок, водка' },
-    { id: 114, categoryId: 'cocktails', name: 'МИНТИ', price: 350, weight: '300мл', desc: 'сироп голубая малина, мята, лимонный сок, лайм' },
-    { id: 115, categoryId: 'cocktails', name: 'АМАТИСТ', price: 320, weight: '300мл', desc: 'сироп лаванда, лимонный сок, мята, содовая' },
+    
 
     // --- БАР (ПИВО / НАСТОЙКИ / Б/А) ---
     { id: 120, categoryId: 'bar', name: 'KOZEL (СВЕТЛОЕ / ТЕМНОЕ)', price: 180, weight: '0.5л', desc: 'чешское классическое пиво' },
